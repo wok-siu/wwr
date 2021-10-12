@@ -1,0 +1,33 @@
+body {
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.colored-paragraph {
+    background-color: turquoise;
+}
+
+.banner > img {
+    width: 100%;
+}
+/*Find an element which is a Direct Child */
+
+.cells img {
+    width: 50%;
+}
+
+a:link, a:visited {
+    color: orange;
+    background-color: salmon;
+}
+
+a:active {
+    color: silver;
+}
+
+a:hover {
+
+}
