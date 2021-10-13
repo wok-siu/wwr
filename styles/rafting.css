@@ -32,8 +32,7 @@ padding: 20px;
     margin-top: 10px;
     margin-right: 30px;
 }
-
-#SoloBtn {
+.SoloBtn {
 position: relative;
 text-transform: uppercase;
 padding: 0px 30px;
@@ -59,7 +58,7 @@ cursor: pointer;
 transition: color 0.2s ease-in-out 0s;
 }
 
-#SoloBtn:hover {
+.SoloBtn:hover {
     --sf-background-color: #29353a;
     --sf-text-color: #fff;
     --sf-error-color: #f44336;
