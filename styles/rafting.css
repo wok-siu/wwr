@@ -5,7 +5,7 @@ body {
     display: grid;
     grid-template-columns: auto;
     height: 100vh;
-  }
+}
 
 h1 {
     font-family: 'Lato', sans-serif;
@@ -22,7 +22,10 @@ p {
     color: #333333;
     padding: 1em 3em;
 }
-
+main {
+    position: relative;
+    padding: 20px;
+}
 .header {
     font-family: 'Lato', sans-serif;
     position:relative;
