@@ -1,0 +1,53 @@
+p {
+    margin-bottom: 5px;
+}
+.img-fluid{
+    max-width: 90%;
+    height: 360px;
+    border-radius: 1em;
+}
+.choice {
+    grid-template-columns: fr fr fr;
+    display: grid;
+}
+
+.idaho {
+    position: relative;
+    grid-column: 1/2;
+    border-style: solid;
+    border-radius: 1em;
+    border-color: var(--accent1-color);
+}
+.utah {
+    position: relative;
+    grid-column: 2/3;
+    border-style: solid;
+    border-radius: 1em;
+    border-color: var(--accent1-color);
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.arizona {
+    position: relative;
+    grid-column: 3/4;
+    border-style: solid;
+    border-radius: 1em;
+    border-color: var(--accent1-color);
+}
+@media only screen and (max-width: 830px){
+    .choice {
+        display: block;
+    }
+    .idaho {
+        margin-bottom: 1em;
+    }
+    .utah {
+        margin-bottom: 1em;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .img-fluid{
+        width :90%;
+        height: auto;
+       }
+}
